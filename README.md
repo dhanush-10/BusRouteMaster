@@ -34,20 +34,10 @@
     * Viewing list of available buses and booking a reservation
     * Only logged in user can access his reservations, profile updation and other features.
 
-## Contributors
 
-* Nikhil Bhardwaj
-* Sandhya Potadar
-* Yuvraj Rajarawal
-* Dheeraj Pandey
 
 ## Installation & Run
 
-* Before running the API server, you should update the database config inside the [application.properties](https://github.com/vinaykumar2n/succinct-wrench-1095/blob/main/BusReservationSystemPortal/src/main/resources/application.properties) file. 
-* Update the port number, username and password as per your local database config.
-
-```
-    server.port=8888
 
     spring.datasource.url=jdbc:mysql://localhost:3306/busdb
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
